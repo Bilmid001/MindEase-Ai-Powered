@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Admin Dashboard - MindEase</title>
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="icon" href="/public/img/brainlogo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="/img/brainlogo.jpg" type="image/x-icon">
   <style>
     /* Base styling */
     body {
@@ -257,7 +257,7 @@
     // Logout handler
     document.getElementById("logout").onclick = () => {
       localStorage.removeItem("currentUser");
-      window.location.href = "/public/index.html";
+      window.location.href = "/index.html";
     };
 
     // Simulated user data
