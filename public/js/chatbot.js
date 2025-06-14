@@ -137,6 +137,6 @@ const logoutBtn = document.getElementById("logout");
 if (logoutBtn) {
   logoutBtn.addEventListener("click", () => {
     localStorage.removeItem("currentUser");
-    window.location.href = "/public/index.html";
+    window.location.href = "/index.html";
   });
 }
