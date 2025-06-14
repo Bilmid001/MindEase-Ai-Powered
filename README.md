@@ -1,2 +1,2 @@
-![](img/brainlogo.jpg)
-![](img/brainlogo.png)
+![image1](/public/img/brainlogo.jpg)
+![image2](/public/img/brainlogo.png)
